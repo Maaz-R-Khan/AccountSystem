@@ -12,6 +12,7 @@ public class CreditAccount extends Account {
         CreditLimit = creditLimit;
     }
 
+
     @Override
     public boolean deposit(double amount) {
         if(this.Balance <= 0) {

@@ -8,15 +8,17 @@ public class Main {
        act.withdraw(400);
        System.out.println(act.toString());
 
+
        Account act2 = new CreditAccount("Credit", 1500);
-       act.withdraw(200);
+       act2.withdraw(200);
        System.out.println(act2.toString());
-        act.withdraw(2000);
+        act2.withdraw(2000);
         System.out.println(act2.toString());
 
-        Account act4 = new LoanAccount("Loan", 1000);
-        act4.deposit(300);
-        System.out.println(act4.toString());
+        Account act3 = new LoanAccount("Loan", 3000, 5.00);
+        act3.deposit(300);
+        System.out.println(act3.toString());
+
 
 
     }
